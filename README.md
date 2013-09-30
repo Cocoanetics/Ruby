@@ -21,6 +21,6 @@ Example **.travis.yml**
 	  - xctool -project DTFoundation.xcodeproj -scheme "Static Library" build test -sdk iphonesimulator
 
 	after_success:
-	  - coveralls.rb
+	  - ./coveralls.rb
 	  
 It would be great if I could add some command line options to pass onto the cpp-coveralls.
